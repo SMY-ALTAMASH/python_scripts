@@ -13,7 +13,7 @@ if not os.path.isfile(csvfiles[1]):
   print("file "+ csvfiles[1] + " doesn't exists" )
   exit()
 
-#from merged CSV file write it to dictionary and eliminate entries with value "" " " and "\n"
+#from CSV files write it to dictionary and eliminate entries with value "" " " and "\n"
 for csvFile in csvfiles:
 	with open(csvFile, "r") as matching:
 	    for line in matching:
