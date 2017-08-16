@@ -8,13 +8,13 @@ import os
 import subprocess
 from complete_log_parser import body
 
-smtp_username = 'AKIAJKP3G6OFDP3QVI4A'
-smtp_server = 'email-smtp.us-east-1.amazonaws.com'
-smtp_password = 'ArgO1Jg5GdvSdwD04dEP5nCoDwfEyLZymCjO7YLAWCog'
-smtp_port = '587'
+smtp_username = ''
+smtp_server = ''
+smtp_password = ''
+smtp_port = ''
 
-email_fromaddr = 'donotreply@zwayam.com'
-email_toaddrs = ['smy.altamash@gmail.com'] #add mail separated by comma and within single quotes
+email_fromaddr = ''
+email_toaddrs = [''] #add mail separated by comma and within single quotes
 
 #run the main script for generating attachmen
 subprocess.call(" python3 main.py 1", shell=True)
